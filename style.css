@@ -131,6 +131,7 @@ ol li {
 nav > ul > li {
   display: inline;
   line-height: 3rem;
+  border-radius: 10px;
 }
 
 nav ul li {
@@ -211,6 +212,7 @@ a:link, a:active, a:visited {
   margin-inline: auto;
   padding: 0 0.65rem 0 0.65rem;
   border: 1px solid #7fffd4;
+  border-radius: 5px;
 }
 
 /* Currently Staged */
@@ -223,6 +225,29 @@ a:link, a:active, a:visited {
   justify-items: center;
   grid-gap: 1rem;
   margin: 3rem;
+  border-radius: 5px;
+}
+
+/* All Styles Button */
+
+a.link-allstyles {
+  max-width: 15rem;
+  font-size: 20px;
+  text-decoration: none;
+  border: 3px solid #7fffd4;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Footer */
+
+.page-footer p:first-child {
+  margin-top: 3rem;
+  color: #fff;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* Skip Link */
